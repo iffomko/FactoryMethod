@@ -19,19 +19,19 @@ public class AmericanAmericano implements Coffee {
 
             sleep(1000);
 
-            System.out.println("Выливаю сваренный экспрессе в стакан");
+            System.out.println("Выливаю сваренный экспрессе в стакан\n");
 
             sleep(250);
 
-            System.out.println("Добавляю 120мл воды");
+            System.out.println("Добавляю 120мл воды\n");
 
             sleep(500);
 
-            System.out.println("Добавляю маршмеллоу...");
+            System.out.println("Добавляю маршмеллоу...\n");
 
             sleep(250);
 
-            System.out.println("Успех! Американо в Итальянском стиле приготовлено!");
+            System.out.println("Успех! Американо в Итальянском стиле приготовлено!\n");
         } catch (InterruptedException e) {
             System.out.println(e.getMessage());
         }

@@ -21,5 +21,9 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-  </dependencies><build><plugins><plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><configuration><source>5</source><target>5</target></configuration></plugin></plugins></build>
+  </dependencies><build><plugins><plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId>
+  <configuration>
+    <source>18</source>
+    <target>18</target>
+  </configuration></plugin></plugins></build>
 </project>
