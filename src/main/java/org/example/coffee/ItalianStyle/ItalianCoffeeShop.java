@@ -1,6 +1,7 @@
-package org.example.coffeeShop;
+package org.example.coffee.ItalianStyle;
 
 import org.example.coffee.*;
+import org.example.coffee.coffeeShop.CoffeeShop;
 
 /**
  * Сеть кафе в Итальянском стиле

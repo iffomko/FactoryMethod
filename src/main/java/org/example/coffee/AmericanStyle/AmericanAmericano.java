@@ -1,11 +1,15 @@
-package org.example.coffee;
+package org.example.coffee.AmericanStyle;
+
+import org.example.coffee.Coffee;
 
 import static java.lang.Thread.sleep;
 
 /**
- * Раф в Американском стиле
+ * Американо в Американском стиле
  */
-public class AmericanRaf implements Coffee {
+public class AmericanAmericano implements Coffee {
+    AmericanAmericano() {}
+
     /**
      * Метод, который готовит кофе
      */
@@ -19,19 +23,19 @@ public class AmericanRaf implements Coffee {
 
             sleep(1000);
 
-            System.out.println("Выливаю сваренный экспрессе в стакан");
+            System.out.println("Выливаю сваренный экспрессе в стакан\n");
 
             sleep(250);
 
-            System.out.println("Добавляю 120мл сливок");
+            System.out.println("Добавляю 120мл воды\n");
 
             sleep(500);
 
-            System.out.println("Добавляю маршмеллоу...");
+            System.out.println("Добавляю маршмеллоу...\n");
 
             sleep(250);
 
-            System.out.println("Успех! Раф в Итальянском стиле приготовлено!");
+            System.out.println("Успех! Американо в Итальянском стиле приготовлено!\n");
         } catch (InterruptedException e) {
             System.out.println(e.getMessage());
         }
@@ -41,6 +45,6 @@ public class AmericanRaf implements Coffee {
      * Метод, который нальет кофе в стакан
      */
     public void pourCoffee() {
-        System.out.println("Наливаю Раф в стакан");
+        System.out.println("Наливаю Американо в стакан");
     }
 }

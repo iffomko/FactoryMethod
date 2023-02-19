@@ -1,4 +1,4 @@
-package org.example.coffeeShop;
+package org.example.coffee.coffeeShop;
 
 import org.example.coffee.Coffee;
 import org.example.coffee.CoffeeType;
