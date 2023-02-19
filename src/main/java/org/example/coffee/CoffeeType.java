@@ -3,8 +3,8 @@ package org.example.coffee;
 /**
  * Список всех типов кофе
  */
-public enum CoffeeTypes {
+public enum CoffeeType {
     AMERICANO,
     LATTE,
-    RAF
+    RAF;
 }
