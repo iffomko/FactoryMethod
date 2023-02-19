@@ -1,10 +1,13 @@
-package org.example.coffee.AmericanStyle;
+package org.example.coffee.coffeeShop;
 
 import org.example.coffee.*;
+import org.example.coffee.AmericanStyle.AmericanAmericano;
+import org.example.coffee.AmericanStyle.AmericanLatte;
+import org.example.coffee.AmericanStyle.AmericanRaf;
 import org.example.coffee.coffeeShop.CoffeeShop;
 
 /**
- * Сеть кафе в Американском стиле
+ * Сеть кафе в Американском стиле (фабрика)
  */
 public class AmericanCoffeeShop extends CoffeeShop {
     /**
@@ -15,9 +18,9 @@ public class AmericanCoffeeShop extends CoffeeShop {
      */
     protected Coffee createCoffee(CoffeeType type) throws Exception {
         return switch (type) {
-            case AMERICANO -> new AmericanAmericano();
-            case LATTE -> new AmericanLatte();
-            case RAF -> new AmericanRaf();
+            case AMERICANO -> AmericanAmericano.getCoffee();
+            case LATTE -> AmericanLatte.getCoffee();
+            case RAF -> AmericanRaf.getCoffee();
             default -> throw new Exception("Такого кофе нет, можете выбрать что-то, что есть в нашем ассортименте");
         };
     }

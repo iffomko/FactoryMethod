@@ -8,7 +8,16 @@ import static java.lang.Thread.sleep;
  * Раф в Итальянском стиле
  */
 public class ItalianRaf implements Coffee {
-    ItalianRaf() {}
+    private ItalianRaf() {}
+
+    /**
+     * Возвращает кофе в определенном стиле (фабричный метод)
+     * @return - кофе
+     */
+    public static Coffee getCoffee() {
+        return new ItalianRaf();
+    }
+
     /**
      * Метод, который готовит кофе
      */

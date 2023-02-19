@@ -8,7 +8,15 @@ import static java.lang.Thread.sleep;
  * Раф в Американском стиле
  */
 public class AmericanRaf implements Coffee {
-    AmericanRaf() {}
+    private AmericanRaf() {}
+
+    /**
+     * Возвращает объект кофе в определенном стиле (фабричный метод)
+     * @return - кофе
+     */
+    public static Coffee getCoffee() {
+        return new AmericanRaf();
+    }
 
     /**
      * Метод, который готовит кофе

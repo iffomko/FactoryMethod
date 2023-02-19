@@ -8,7 +8,16 @@ import static java.lang.Thread.sleep;
  * Латте в Американском стиле
  */
 public class AmericanLatte implements Coffee {
-    AmericanLatte() {}
+    private AmericanLatte() {}
+
+    /**
+     * Возвращает объект кофе в определенном стиле (фабричный метод)
+     * @return - кофе
+     */
+    public static Coffee getCoffee() {
+        return new AmericanLatte();
+    }
+
     /**
      * Метод, который готовит кофе
      */

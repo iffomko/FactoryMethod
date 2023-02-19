@@ -1,9 +1,9 @@
 package org.example;
 
 import org.example.coffee.CoffeeType;
-import org.example.coffee.AmericanStyle.AmericanCoffeeShop;
+import org.example.coffee.coffeeShop.AmericanCoffeeShop;
 import org.example.coffee.coffeeShop.CoffeeShop;
-import org.example.coffee.ItalianStyle.ItalianCoffeeShop;
+import org.example.coffee.coffeeShop.ItalianCoffeeShop;
 
 /**
  * Hello world!

@@ -8,7 +8,15 @@ import static java.lang.Thread.sleep;
  * Американо в Американском стиле
  */
 public class AmericanAmericano implements Coffee {
-    AmericanAmericano() {}
+    private AmericanAmericano() {}
+
+    /**
+     * Возвращает объект кофе в определенном стиле (фабричный метод)
+     * @return - кофе
+     */
+    public static Coffee getCoffee() {
+        return new AmericanAmericano();
+    }
 
     /**
      * Метод, который готовит кофе
